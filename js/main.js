@@ -26,8 +26,8 @@ function search() {
     }
 
     function ok() {
-        let array1 = [site, file, url, title, text, key,before,after,map,location,define,inanchor,cache,source,blogurl,related,stocks,allinurl,allintitle,allintext,allinanchor];
-        let array2 = ["site:", "filetype:", "inurl:", "intitle:", "intext:", "'", "before:", "after:", "map:", "location:", "define","inanchor:","cache:","source:","blogurl:","related:","stocks:","allinurl:","allintitle:","allintext:","allinanchor:"];
+        let array1 = [site, file, url, title, text, key,before,after,map,location,define,inanchor,cache,source,related,allinurl,allintitle,allintext,allinanchor];
+        let array2 = ["site:", "filetype:", "inurl:", "intitle:", "intext:", "", "before:", "after:", "map:", "location:", "define","inanchor:","cache:","source:","related:","allinurl:","allintitle:","allintext:","allinanchor:"];
         let halfsite = "";
         for (let a = 0; a < 21; a++) {
             if (array1[a].length > 0) {
