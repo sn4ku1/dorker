@@ -37,7 +37,8 @@ function search() {
             }
         }
         let gugle_srch = srch + halfsite;
-        window.open(gugle_srch);
+        window.location.href = gugle_srch;
+//         window.open(gugle_srch);
     }
 }
  function hide(){
