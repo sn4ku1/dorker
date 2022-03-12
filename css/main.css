@@ -1,0 +1,60 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    color: white;
+    background-color: rgb(64, 64, 77);
+    max-height: fit-content;
+    max-width: fit-content;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+input {
+    border-radius: 5px;
+    padding: 3px 3px 3px 5px;
+}
+
+legend {
+    padding: 5px 5px 5px 5px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10%;
+    /* border: 2px solid black; */
+    margin-left: 45px;
+}
+button{
+    padding: 5px;
+    margin: 5px;
+    margin-left: 2px;
+    cursor: pointer;
+    position: relative;
+    top: 150px;
+    left: 600px;
+}
+
+
+::placeholder {
+    transition: all 2s ease-in-out;
+    color: black;
+}
+
+:hover::placeholder {
+    transform: translateX(-200px);
+}
+#reset{
+    cursor: pointer;
+    position: relative;
+    top:176px;
+    padding: 5px;
+    right: 385px;
+}
+
+.advance{
+    display: none;
+}
