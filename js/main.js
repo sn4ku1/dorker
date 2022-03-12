@@ -29,7 +29,7 @@ function search() {
         let array1 = [site, file, url, title, text, key,before,after,map,location,define,inanchor,cache,source,related,allinurl,allintitle,allintext,allinanchor];
         let array2 = ["site:", "filetype:", "inurl:", "intitle:", "intext:", "", "before:", "after:", "map:", "location:", "define","inanchor:","cache:","source:","related:","allinurl:","allintitle:","allintext:","allinanchor:"];
         let halfsite = "";
-        for (let a = 0; a < 21; a++) {
+        for (let a = 0; a < 19; a++) {
             if (array1[a].length > 0) {
                 halfsite += array2[a] + array1[a] + " ";
             } else {
@@ -37,8 +37,8 @@ function search() {
             }
         }
         let gugle_srch = srch + halfsite;
-        window.location.href = gugle_srch;
-//         window.open(gugle_srch);
+//         window.location.href = gugle_srch;
+        window.open(gugle_srch);
     }
 }
  function hide(){
