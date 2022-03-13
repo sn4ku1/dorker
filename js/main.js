@@ -12,22 +12,22 @@ function search() {
     let define = document.getElementById('define').value;
     let inanchor = document.getElementById('inanchor').value;
     let cache = document.getElementById('cache').value;
-    let source = document.getElementById('source').value;
+    let info = document.getElementById('info').value;
     let related = document.getElementById('related').value;
     let allintitle = document.getElementById('allintitle').value;
     let allinurl = document.getElementById('allinurl').value;
     let allintext = document.getElementById('allintext').value;
     let allinanchor = document.getElementById('allinanchor').value;
     let srch = "https://www.google.co.in/search?q=";
-    if (site.length == 0 && file.length == 0 && title.length == 0 && url.length == 0 && text.length == 0 && key.length == 0 && before.length == 0 && after.length == 0 && map.length == 0 && location.length == 0 && define.length == 0 && inanchor.length == 0 && cache.length == 0 && source.length == 0 && related.length == 0 && allintitle.length == 0 && allinurl.length == 0 && allintext.length == 0 && allinanchor.length == 0) {
+    if (site.length == 0 && file.length == 0 && title.length == 0 && url.length == 0 && text.length == 0 && key.length == 0 && before.length == 0 && after.length == 0 && map.length == 0 && location.length == 0 && define.length == 0 && inanchor.length == 0 && cache.length == 0 && info.length == 0 && related.length == 0 && allintitle.length == 0 && allinurl.length == 0 && allintext.length == 0 && allinanchor.length == 0) {
         alert("Please fill atleast one field");
     } else {
         ok();
     }
 
     function ok() {
-        let array1 = [site, file, url, title, text, key, before, after, map, location, define, inanchor, cache, source, related, allinurl, allintitle, allintext, allinanchor];
-        let array2 = ["site:", "filetype:", "inurl:", "intitle:", "intext:", "", "before:", "after:", "map:", "location:", "define", "inanchor:", "cache:", "source:", "related:", "allinurl:", "allintitle:", "allintext:", "allinanchor:"];
+        let array1 = [site, file, url, title, text, key, before, after, map, location, define, inanchor, cache, info, related, allinurl, allintitle, allintext, allinanchor];
+        let array2 = ["site:", "filetype:", "inurl:", "intitle:", "intext:", "", "before:", "after:", "map:", "location:", "define", "inanchor:", "cache:", "info:", "related:", "allinurl:", "allintitle:", "allintext:", "allinanchor:"];
         let halfsite = "";
         for (let a = 0; a < 19; a++) {
             if (array1[a].length > 0) {
