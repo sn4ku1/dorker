@@ -60,6 +60,119 @@ button {
     padding : 5px;
     right   : 450px;
 }
+@media (min-width:1326px)  and (max-width:1350px){
+    #reset {
+        cursor  : pointer;
+        position: relative;
+        top     : 145px;
+        padding : 5px;
+        right   : 414px;
+    }
+    button {
+        padding      : 5px;
+        margin       : 5px;
+        margin-left  : 2px;
+        cursor       : pointer;
+        position     : relative;
+        top          : 150px;
+        left         : 530px;
+        border-radius: 5px;
+    }
+    #container {
+        display              : grid;
+        grid-template-columns: repeat(5, auto);
+        grid-gap             : 10%;
+        margin-left          : 45px;
+    }
+}
+
+@media (min-width:1350px)  and (max-width:1400px){
+    #reset {
+        cursor  : pointer;
+        position: relative;
+        top     : 132px;
+        padding : 5px;
+        right   : 414px;
+    }
+    button {
+        padding      : 5px;
+        margin       : 5px;
+        margin-left  : 2px;
+        cursor       : pointer;
+        position     : relative;
+        top          : 150px;
+        left         : 600px;
+        border-radius: 5px;
+    }
+    #container {
+        display              : grid;
+        grid-template-columns: repeat(5, auto);
+        grid-gap             : 12%;
+        margin-left          : 45px;
+    }
+}
+
+@media (min-width:1400px)  and (max-width:1500px){
+    body{
+        /* border: 2px solid black; */
+        padding: 3.5vw;
+    }
+    #reset {
+        cursor  : pointer;
+        position: relative;
+        top     : 209px;
+        padding : 5px;
+        right   : -510px;
+    }
+    button {
+        padding      : 5px;
+        margin       : 5px;
+        margin-left  : 2px;
+        cursor       : pointer;
+        position     : relative;
+        top          : 150px;
+        left         : 600px;
+        border-radius: 5px;
+    }
+    #container {
+        display              : grid;
+        grid-template-columns: repeat(6, auto);
+        grid-gap             : 4vw;
+        /* border: 2px solid black; */
+        margin-left: 0px;
+    }
+}
+
+@media (min-width:1500px)  and (max-width:1600px){
+    body{
+        /* border: 2px solid black; */
+        padding: 3.5vw;
+    }
+    #reset {
+        cursor  : pointer;
+        position: relative;
+        top     : 208px;
+        padding : 5px;
+        right   : -510px;
+    }
+    button {
+        padding      : 5px;
+        margin       : 5px;
+        margin-left  : 2px;
+        cursor       : pointer;
+        position     : relative;
+        top          : 150px;
+        left         : 600px;
+        border-radius: 5px;
+    }
+    #container {
+        display              : grid;
+        grid-template-columns: repeat(6, auto);
+        grid-gap             : 4vw;
+        /* border: 2px solid black; */
+        margin-left: 0px;
+    }
+}
 
 @media (min-width:1300px) and (max-width:1326px) {
     ::placeholder {
