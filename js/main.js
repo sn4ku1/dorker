@@ -59,7 +59,7 @@ function show() {
     let c = document.getElementById('a:3');
     let d = document.getElementById('a:4');
     let e = document.getElementById('a:5');
-    if (a.style.visibility != 'hidden' && b.style.visibility != 'hidden' && c.style.visibility != 'hidden' && d.style.visibility != 'hidden') {
+    if (a.style.visibility != 'hidden' && b.style.visibility != 'hidden' && c.style.visibility != 'hidden' && d.style.visibility != 'hidden' && e.style.visibility != 'hidden'){
         a.style.visibility = 'hidden';
         b.style.visibility = 'hidden';
         c.style.visibility = 'hidden';
